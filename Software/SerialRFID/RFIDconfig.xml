@@ -1,0 +1,14 @@
+<rfid-config>
+	<files>
+		<file name="locations" path="C:\Users\jwkel\Google Drive\JMRI\Hiawatha\operations\OperationsLocationRoster.xml" />
+		<file name="cars" path="C:\Users\jwkel\Google Drive\JMRI\Hiawatha\operations\OperationsCarRoster.xml" />
+		<file name="engines" path="C:\Users\jwkel\Google Drive\JMRI\Hiawatha\operations\OperationsEngineRoster.xml" />
+		<file name="serialrfid" path="C:\Users\jwkel\OneDrive\Documents\NetBeansProjects\JythonProject\src" />
+	</files>
+	<op-modes>
+		<op-mode name="stand alone" />
+	</op-modes>
+	<ports>
+		<port name="COM4" />
+	</ports>
+</rfid-config>

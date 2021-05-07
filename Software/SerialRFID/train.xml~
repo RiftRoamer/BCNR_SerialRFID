@@ -1,0 +1,17 @@
+<train>
+  <engines>
+    <engine id="MILW1" model="Atlantic 4-4" rfid="000000" roadName="MILW" roadNumber="1" type="Steam" />
+  </engines>  
+   <cars>
+    <car engine="MILW1" color="White" id="GATX9482" locationId="6" owner="JWK" rfid="000000" roadName="GATX" roadNumber="9482" type="Tank Gas"/>
+    <car engine="MILW1" color="White" id="MFGQREX 110" locationId="6" owner="JWK" rfid="000000" roadName="MFG" roadNumber="QREX 110" type="Boxcar"/>
+    <car engine="MILW1" color="Brown" id="MILW034" locationId="6" owner="JWK" rfid="000000" roadName="MILW" roadNumber="034" type="Caboose"/>
+    <car engine="MILW1" color="Orange" id="MILW1001" locationId="5" owner="JWK" rfid="000000" roadName="MILW" roadNumber="1001" type="rpo"/>
+    <car engine="MILW1" color="Orange" id="MILW1002" locationId="5" rfid="000000" roadName="MILW" roadNumber="1002" type="Opservation"/>
+    <car engine="MILW1" color="Orange" id="MILW1003" locationId="5" rfid="000000" roadName="MILW" roadNumber="1003" type="Passenger"/>
+    <car engine="MILW1" color="Orange" id="MILW1004" locationId="5" rfid="000000" roadName="MILW" roadNumber="1004" type="Beaver Tail"/>
+    <car engine="MILW1" color="Yellow" id="MILW85219" locationId="6"owner="JWK" rfid="000000" roadName="MILW" roadNumber="85219" type="Reefer"/>
+    <car engine="MILW1" color="Brown" id="MILW8773" locationId="6" rfid="000000" roadName="MILW" roadNumber="8773" type="Boxcar"/>
+    <car engine="MILW1" color="Yellow" id="URTC90160" locationId="6" owner="JWK" rfid="000000" roadName="URTC" roadNumber="90160" type="Reefer"/>
+  </cars>
+</train>

@@ -1,0 +1,63 @@
+<rfid-config>
+  
+	<files>
+		<file name="locations" path="C:\Users\jwkel\Documents\NetBeansProjects\JythonProject\src\OperationsLocationRoster2.xml" />
+		<file name="cars" path="C:\Users\jwkel\Documents\NetBeansProjects\JythonProject\src\OperationsCarRoster2.xml" />
+		<file name="engines" path="C:\Users\jwkel\Documents\NetBeansProjects\JythonProject\src\OperationsCarRoster2.xml" />
+		<file name="serialrfid" path="C:\Users\jwkel\Documents\NetBeansProjects\JythonProject\src" />
+	</files>
+  
+                       <op-modes>
+		<op-mode name="stand alone" />
+	</op-modes>
+  
+	<ports>
+		<port name="COM4" />
+	</ports>
+  
+	<readers>
+		<reader address="A" installed="yes" name="Main Yard" />
+		<reader address="B" installed="yes" name="Cookie Dog House" />
+		<reader address="C" installed="yes" name="Back yard table" />
+		<reader address="D" installed="yes" name="D" />
+		<reader address="E" installed="no" name="E" />
+		<reader address="F" installed="no" name="F" />
+		<reader address="G" installed="no" name="G" />
+		<reader address="H" installed="no" name="H" />
+		<reader address="I" installed="no" name="I" />
+		<reader address="J" installed="no" name="J" />
+		<reader address="K" installed="no" name="K" />
+		<reader address="L" installed="no" name="L" />
+		<reader address="M" installed="no" name="M" />
+		<reader address="N" installed="no" name="N" />
+		<reader address="O" installed="no" name="O" />
+		<reader address="P" installed="no" name="P" />
+		<reader address="Q" installed="no" name="Q" />
+		<reader address="R" installed="no" name="R" />
+		<reader address="S" installed="no" name="S" />
+		<reader address="T" installed="no" name="T" />
+		<reader address="U" installed="no" name="U" />
+		<reader address="V" installed="no" name="V" />
+		<reader address="W" installed="no" name="W" />
+		<reader address="X" installed="no" name="X" />
+		<reader address="Y" installed="no" name="Y" />
+	</readers>
+  
+	<assignments>
+		<assigned id="1s1" name="Acme Box" node="C" /><assigned id="2s1" name="Lara Coal Company 2" node="C" /><assigned id="2s1" name="Lara Coal Company 2" node="C" /><assigned id="2s1" name="Lara Coal Company 1" node="C" /><assigned id="2s1" name="Lara Coal Company 2" node="B" /></assignments>
+  
+	<engines>
+		 <engine id="Internal" location="none" model="Permanent" rfid="000000" roadName="SerialRFID" roadNumber="S" type="Switcher">
+			<car color="red" id="123" location="none" owner="none" rfid="000000" roadName="jim" roadNumber="456" type="reefer" />
+			<car color="blue" id="453" location="none" owner="none" rfid="000000" roadName="name1" roadNumber="220" type="truck" />
+			</engine>
+	     <engine id="kelly" location="none" model="houston 4-4" rfid="000000" roadName="engine one" roadNumber="1" type="steam">
+			<car color="y" id="qwe" location="none" owner="none" rfid="000000" roadName="aaaa" roadNumber="1" type="box" />
+			<car color="y" id="asd" location="none" owner="none" rfid="000000" roadName="bbb" roadNumber="2" type="www" />
+			<car color="y" id="ghj" location="none" owner="none" rfid="000000" roadName="ccc" roadNumber="3" type="sss" />
+		</engine>
+		<engine id="lydia" location="none" model="kansas 4-4" rfid="000000" roadName="engine two" roadNumber="2" type="steam">
+			<car color="b" id="jkl" location="none" owner="none" rfid="000000" roadName="wwww" roadNumber="4" type="tank" />
+		</engine>
+    </engines>
+</rfid-config>

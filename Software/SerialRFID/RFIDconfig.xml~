@@ -1,0 +1,86 @@
+<rfid-config>
+	<files>
+		<file name="locations" path="C:\Users\jwkel\OneDrive\Documents\NetBeansProjects\JythonProject\src\OperationsLocationRoster.xml" />
+		<file name="cars" path="C:\Users\jwkel\OneDrive\Documents\NetBeansProjects\JythonProject\src\OperationsCarRoster.xml" />
+		<file name="engines" path="C:\Users\jwkel\OneDrive\Documents\NetBeansProjects\JythonProject\src\OperationsEngineRoster.xml" />
+		<file name="serialrfid" path="C:\Users\jwkel\OneDrive\Documents\NetBeansProjects\JythonProject\src" />
+	</files>
+	<op-modes>
+		<op-mode name="stand alone" />
+	</op-modes>
+	<ports>
+		<port name="COM4" />
+	</ports>
+	<readers>
+		<reader address="A" installed="yes" name="Main Yard" />
+		<reader address="B" installed="yes" name="Cookie Dog House" />
+		<reader address="C" installed="yes" name="Back yard table" />
+		<reader address="D" installed="no" name="D" />
+		<reader address="E" installed="no" name="E" />
+		<reader address="F" installed="no" name="F" />
+		<reader address="G" installed="no" name="G" />
+		<reader address="H" installed="yes" name="H" />
+		<reader address="I" installed="no" name="I" />
+		<reader address="J" installed="no" name="J" />
+		<reader address="K" installed="no" name="K" />
+		<reader address="L" installed="no" name="L" />
+		<reader address="M" installed="no" name="M" />
+		<reader address="N" installed="yes" name="N" />
+		<reader address="O" installed="no" name="O" />
+		<reader address="P" installed="no" name="P" />
+		<reader address="Q" installed="no" name="Q" />
+		<reader address="R" installed="no" name="R" />
+		<reader address="S" installed="no" name="S" />
+		<reader address="T" installed="no" name="T" />
+		<reader address="U" installed="no" name="U" />
+		<reader address="V" installed="no" name="V" />
+		<reader address="W" installed="no" name="W" />
+		<reader address="X" installed="no" name="X" />
+		<reader address="Y" installed="no" name="Y" />
+	</readers>
+	<assignments>
+		<assigned id="1" name="Brody Box Company" node="A" />
+		<assigned id="1s1" name="'Acme Box" node="A" />
+		<assigned id="2" name="Lara Coal Company" node="B" />
+		<assigned id="2s1" name="Lara Coal Company" node="B" />
+		<assigned id="2s2" name="Lara Coal Company 2" node="B" />
+		<assigned id="3" name="'J and J Tire Company" node="C" />
+		<assigned id="3s1" name="'Hilltop Spur" node="C" />
+		<assigned id="4" name="'J and A Petrolium" node="D" />
+		<assigned id="4s1" name="''Reverse Spur" node="D" />
+		<assigned id="5" name="S and J Union Station" node="E" />
+		<assigned id="5s1" name="Station Siding" node="E" />
+		<assigned id="6" name="'Short Box" node="F" />
+		<assigned id="6s1" name="'Short Box" node="F" />
+		<assigned id="7" name="'Long Box" node="G" />
+		<assigned id="7s1" name="'Long Box" node="G" />
+		<assigned id="" name="" node="H" />
+		<assigned id="" name="" node="I" />
+		<assigned id="" name="" node="J" />
+		<assigned id="" name="" node="K" />
+		<assigned id="" name="" node="L" />
+		<assigned id="" name="" node="M" />
+		<assigned id="" name="" node="N" />
+		<assigned id="" name="" node="O" />
+		<assigned id="" name="" node="P" />
+		<assigned id="" name="" node="Q" />
+		<assigned id="" name="" node="R" />
+		<assigned id="" name="" node="S" />
+		<assigned id="" name="" node="T" />
+		<assigned id="" name="" node="U" />
+		<assigned id="" name="" node="V" />
+		<assigned id="" name="" node="W" />
+		<assigned id="" name="" node="X" />
+		<assigned id="" name="" node="Y" />
+	</assignments>
+	<engines>
+		<engine name="engine 1" rfid="0000">
+			<car color="y" name="aaaa" number="1" rfid="0000" type="box">my test</car>
+			<car color="y" name="bbb" number="2" rfid="0000" type="www">my test</car>
+			<car color="y" name="ccc" number="3" rfid="0000" type="sss">my test</car>
+		</engine>
+		<engine name="engine 2" rfid="0000">
+			<thecar color="b" name="wwww" number="4" rfid="0000" type="tank" />
+		</engine>
+	</engines>
+</rfid-config>

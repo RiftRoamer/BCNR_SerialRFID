@@ -1,0 +1,51 @@
+<jmri-import>
+  <engines>
+    <engine date="" hp="2000" id="MILW1" length="50" locationId="5" model="Atlantic 4-4" moves="0" owner="Jim Kelly" rfid="111111" roadName="MILW" roadNumber="1" secLocationId="5s1" selected="false" type="Steam" />
+    <engine date="" hp="2000" id="MILW19" length="50" locationId="5" model="E7A" moves="0" owner="Jim Kelly" rfid="111111" roadName="MILW" roadNumber="19" secLocationId="5s1" selected="false" type="Diesel" />
+    <engine blocking="1" consist="19" date="06/04/2016 13:17:00" destinationId="5" hp="2000" id="MILW19A" lastLocationId="5" lastRouteId="1" leadConsist="true" length="50" locationId="5" model="E7A" moves="4" owner="Jim Kelly" rfid="111111" roadName="MILW" roadNumber="19A" routeDestinationId="1r2" routeLocationId="1r1" secDestinationId="5s1" secLocationId="5s1" selected="false" train="Hiawatha" trainId="1" type="Diesel" />
+    <engine blocking="2" consist="19" date="06/04/2016 13:17:00" destinationId="5" hp="2000" id="MILW19B" lastLocationId="5" lastRouteId="1" length="50" locationId="5" model="E7A" moves="4" owner="Jim Kelly" rfid="111111" roadName="MILW" roadNumber="19B" routeDestinationId="1r2" routeLocationId="1r1" secDestinationId="5s1" secLocationId="5s1" selected="false" train="Hiawatha" trainId="1" type="Diesel" />
+    <engine date="" hp="2000" id="Milwaukee15" length="50" model="EMD E6" moves="0" owner="Jim Kelly" rfid="111111" roadName="Milwaukee" roadNumber="15" selected="false" type="Engine" />
+    <engine date="" hp="2000" id="Milwaukee151" length="50" model="EMD E6" moves="0" owner="Jim Kelly" rfid="111111" roadName="Milwaukee" roadNumber="151" selected="false" type="Engine" />
+    <engine date="" hp="2000" id="Milwaukee15B" length="50" model="EMD E6" moves="0" owner="Jim Kelly" rfid="111111" roadName="Milwaukee" roadNumber="15B" selected="false" type="Engine" />
+    <engine date="" hp="2000" id="Milwaukee1646" length="50" model="EMD" moves="0" owner="Jim Kelly" rfid="111111" roadName="Milwaukee" roadNumber="1646" selected="false" type="Engine" />
+    <engine date="" hp="2000" id="Southern Pac2005" length="50" model="0-6-0" moves="0" owner="Jim Kelly" rfid="111111" roadName="Southern Pac" roadNumber="2005" selected="false" type="Engine" />
+    <engine date="" hp="2000" id="Union Pacifi3975" length="50" model="Challenger" moves="0" owner="Jim Kelly" rfid="111111" roadName="Union Pacifi" roadNumber="3975" selected="false" type="Engine" />
+    <engine date="" hp="2000" id="Union Pacifi750" length="50" model="PS-35" moves="0" owner="Jim Kelly" rfid="111111" roadName="Union Pacifi" roadNumber="750" selected="false" type="Engine" />
+  </engines> 
+  <cars>
+    <car color="White" date="" id="GATX9482" length="40" load="E" locationId="6" moves="0" owner="JWK" rfid="000000" roadName="GATX" roadNumber="9482" secLocationId="6s1" selected="false" type="Tank Gas" weight="3.8" weightTons="75" />
+    <car color="White" date="" id="MFGQREX 110" length="40" load="E" locationId="6" moves="0" owner="JWK" rfid="000000" roadName="MFG" roadNumber="QREX 110" secLocationId="6s1" selected="false" type="Boxcar" weight="3.8" weightTons="75" />
+    <car caboose="true" color="Brown" date="" id="MILW034" length="32" load="E" locationId="6" moves="0" owner="JWK" rfid="000000" roadName="MILW" roadNumber="034" secLocationId="6s1" selected="false" type="Caboose" weight="3.2" weightTons="28" />
+    <car blocking="1" color="Orange" date="06/04/2016 13:17:00" destinationId="5" id="MILW1001" lastLocationId="5" lastRouteId="1" length="50" load="L" locationId="5" moves="3" owner="JWK" passenger="true" rfid="000000" roadName="MILW" roadNumber="1001" routeDestinationId="1r2" routeLocationId="1r1" secDestinationId="5s1" secLocationId="5s1" selected="false" train="Hiawatha" trainId="1" type="rpo" weight="4.4" weightTons="88" />
+    <car blocking="2" color="Orange" date="06/04/2016 13:17:00" destinationId="5" id="MILW1002" lastLocationId="5" lastRouteId="1" length="70" load="L" locationId="5" moves="3" passenger="true" rfid="000000" roadName="MILW" roadNumber="1002" routeDestinationId="1r2" routeLocationId="1r1" secDestinationId="5s1" secLocationId="5s1" selected="false" train="Hiawatha" trainId="1" type="Opservation" weight="5.8" weightTons="63" />
+    <car blocking="3" color="Orange" date="06/04/2016 13:17:00" destinationId="5" id="MILW1003" lastLocationId="5" lastRouteId="1" length="70" load="L" locationId="5" moves="3" passenger="true" rfid="000000" roadName="MILW" roadNumber="1003" routeDestinationId="1r2" routeLocationId="1r1" secDestinationId="5s1" secLocationId="5s1" selected="false" train="Hiawatha" trainId="1" type="Passenger" weight="5.8" weightTons="63" />
+    <car blocking="4" color="Orange" date="06/04/2016 13:17:00" destinationId="5" id="MILW1004" lastLocationId="5" lastRouteId="1" length="70" load="L" locationId="5" moves="3" passenger="true" rfid="000000" roadName="MILW" roadNumber="1004" routeDestinationId="1r2" routeLocationId="1r1" secDestinationId="5s1" secLocationId="5s1" selected="false" train="Hiawatha" trainId="1" type="Beaver Tail" weight="5.8" weightTons="63" />
+    <car color="Yellow" date="" id="MILW85219" length="40" load="E" locationId="6" moves="0" owner="JWK" rfid="000000" roadName="MILW" roadNumber="85219" secLocationId="6s1" selected="false" type="Reefer" weight="3.8" weightTons="75" />
+    <car color="Brown" date="" id="MILW8773" length="40" load="E" locationId="6" moves="0" rfid="000000" roadName="MILW" roadNumber="8773" secLocationId="6s1" selected="false" type="Boxcar" weight="3.8" weightTons="75" />
+    <car color="Yellow" date="" id="URTC90160" length="40" load="E" locationId="6" moves="0" owner="JWK" rfid="000000" roadName="URTC" roadNumber="90160" secLocationId="6s1" selected="false" type="Reefer" weight="3.8" weightTons="75" />
+  </cars>
+  <locations>
+    <location comment="" dir="15" id="1" name="Brody Box Company" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="false" switchListComment="">
+      <track blockingOrder="0" dir="15" id="1s1" length="108" locType="Siding" moves="0" name="Acme Box"></track>
+    </location>
+    <location comment="" dir="15" id="2" name="Lara Coal Company" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="false" switchListComment="">
+      <track blockingOrder="0" dir="15" id="2s1" length="152" locType="Siding" moves="0" name="Lara Coal Company 1"></track>
+      <track blockingOrder="0" dir="15" id="2s2" length="152" locType="Siding" moves="0" name="Lara Coal Company 2"></track>
+    </location>
+    <location comment="" dir="15" id="3" name="J &amp; J Tire Company" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="false" switchListComment="">
+      <track blockingOrder="0" dir="15" id="3s1" length="188" locType="Siding" moves="0" name="Hilltop Spur"></track>
+    </location>
+    <location comment="" dir="15" id="4" name="J &amp; A Petrolium" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="false" switchListComment="">
+      <track blockingOrder="0" dir="15" id="4s1" length="101" locType="Siding" moves="0" name="Reverse Spur"></track>
+    </location>
+    <location comment="" dir="15" id="5" name="S &amp; J Union Station" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="true" switchListComment="">
+      <track blockingOrder="0" dir="15" id="5s1" length="493" locType="Siding" moves="28" name="Station Siding"></track>
+    </location>
+    <location comment="" dir="15" id="6" name="Short Box" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="false" switchListComment="">
+      <track blockingOrder="0" dir="15" id="6s1" length="7250" locType="Siding" moves="0" name="Short box"></track>
+    </location>
+    <location comment="" dir="15" id="7" name="Long Box" ops="1" physicalLocation="(0.0, 0.0, 0.0)" printerName="Microsoft XPS Document Writer" switchList="false" switchListComment="">
+      <track blockingOrder="0" dir="15" id="7s1" length="7250" locType="Siding" moves="0" name="Long Box"></track>
+    </location>
+  </locations>
+</jmri-import>

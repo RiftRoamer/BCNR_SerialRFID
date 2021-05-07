@@ -1,0 +1,90 @@
+<jmri-import>
+	<engines>
+		<engine color="Internal" eng="no" id="PERM1" imported="no" location="5" owner="Jim Kelly" reader="A" rfid="000000" roadName="PERM" roadNumber="1" secLocation="5s1" type="Switcher" />
+		<engine color="Atlantic 4-4" eng="no" id="MILW1" imported="yes" location="5" owner="Jim Kelly" reader="A" rfid="111111" roadName="MILW" roadNumber="1" secLocation="5s1" type="Steam" />
+		<engine color="E7A" eng="no" id="MILW19" imported="yes" location="5" owner="Jim Kelly" reader="A" rfid="111111" roadName="MILW" roadNumber="19" secLocation="5s1" type="Diesel" />
+		<engine color="E7A" eng="no" id="MILW19A" imported="yes" location="5" owner="Jim Kelly" reader="A" rfid="111111" roadName="MILW" roadNumber="19A" secLocation="5s1" type="Diesel" />
+		<engine color="E7A" eng="no" id="MILW19B" imported="yes" location="5" owner="Jim Kelly" reader="A" rfid="111111" roadName="MILW" roadNumber="19B" secLocation="5s1" type="Diesel" />
+		<engine color="EMD E6" eng="no" id="Milwaukee15" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Milwaukee" roadNumber="15" secLocation="none" type="Engine" />
+		<engine color="EMD E6" eng="no" id="Milwaukee151" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Milwaukee" roadNumber="151" secLocation="none" type="Engine" />
+		<engine color="EMD E6" eng="no" id="Milwaukee15B" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Milwaukee" roadNumber="15B" secLocation="none" type="Engine" />
+		<engine color="EMD" eng="no" id="Milwaukee1646" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Milwaukee" roadNumber="1646" secLocation="none" type="Engine" />
+		<engine color="0-6-0" eng="no" id="Southern.Pac2005" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Southern Pac" roadNumber="2005" secLocation="none" type="Engine" />
+		<engine color="Challenger" eng="no" id="Union.Pacifi3975" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Union Pacifi" roadNumber="3975" secLocation="none" type="Engine" />
+		<engine color="PS-35" eng="no" id="Union.Pacifi750" imported="yes" location="none" owner="Jim Kelly" reader="A" rfid="111111" roadName="Union Pacifi" roadNumber="750" secLocation="none" type="Engine" />
+		<engine color="model" eng="no" id="ID1234" imported="no" location="None" owner="owner" reader="A" rfid="52 21 136 36" roadName="name" roadNumber="number" secLocation="None" type="type" />
+	</engines>
+	<cars>
+		<car color="White" eng="no" id="GATX9482" imported="yes" location="6" owner="JWK" reader="A" rfid="111111" roadName="GATX" roadNumber="9482" secLocation="6s1" type="Tank Gas" />
+		<car color="Green" eng="no" id="QREX110" imported="yes" location="6" owner="JWK" reader="A" rfid="111111" roadName="QREX" roadNumber="110" secLocation="6s1" type="Boxcar" />
+		<car color="Brown" eng="no" id="MILW034" imported="yes" location="6" owner="JWK" reader="A" rfid="" roadName="MILW" roadNumber="034" secLocation="6s1" type="Caboose" />
+		<car color="Orange" eng="no" id="MILW1001" imported="yes" location="5" owner="JWK" reader="A" rfid="111111" roadName="MILW" roadNumber="1001" secLocation="5s1" type="rpo" />
+		<car color="Orange" eng="no" id="MILW1002" imported="yes" location="5" owner="none" reader="A" rfid="111111" roadName="MILW" roadNumber="1002" secLocation="5s1" type="Opservation" />
+		<car color="Orange" eng="no" id="MILW1003" imported="yes" location="5" owner="none" reader="A" rfid="111111" roadName="MILW" roadNumber="1003" secLocation="5s1" type="Passenger" />
+		<car color="Orange" eng="no" id="MILW1004" imported="yes" location="5" owner="none" reader="A" rfid="111111" roadName="MILW" roadNumber="1004" secLocation="5s1" type="Beaver Tail" />
+		<car color="Yellow" eng="no" id="MILW85219" imported="yes" location="6" owner="JWK" reader="A" rfid="111111" roadName="MILW" roadNumber="85219" secLocation="6s1" type="Reefer" />
+		<car color="Brown" eng="no" id="MILW8773" imported="yes" location="6" owner="none" reader="A" rfid="111111" roadName="MILW" roadNumber="8773" secLocation="6s1" type="Boxcar" />
+		<car color="Yellow" eng="no" id="URTC90160" imported="yes" location="6" owner="JWK" reader="A" rfid="111111" roadName="URTC" roadNumber="90160" secLocation="6s1" type="Reefer" />
+		<car color="red" eng="no" id="mil1234" imported="no" location="None" owner="kelly" reader="A" rfid="52 21 136 36" roadName="milw" roadNumber="1234" secLocation="None" type="box" />
+		<car color="pink" eng="no" id="A3071" imported="no" location="None" owner="Lydia" reader="A" rfid="52 21 136 36" roadName="ashford" roadNumber="3071" secLocation="None" type="chevy" />
+	</cars>
+	<locations>
+		<location assigned="no" id="0" imported="no" name="Permanent Location" reader="none" saName="Permanent Location">
+			<track assigned="yes" id="0s1" imported="no" name="Permanent Track" reader="A" saName="Permanent Track" />
+		</location>
+		<location assigned="no" id="1" imported="yes" name="Brody Box Company" reader="none" saName="A">
+			<track assigned="yes" id="1s1" imported="yes" name="Acme Box" reader="A" saName="A" />
+		</location>
+		<location assigned="no" id="2" imported="yes" name="Lara Coal Company" reader="none" saName="A">
+			<track assigned="yes" id="2s1" imported="yes" name="Lara Coal Company 1" reader="A" saName="A" />
+			<track assigned="yes" id="2s2" imported="yes" name="Lara Coal Company 2" reader="B" saName="A" />
+			<track assigned="no" id="2s3" imported="yes" name="Lara Coal Company 3" reader="none" saName="A" />
+		</location>
+		<location assigned="no" id="3" imported="yes" name="J &amp; J Tire Company" reader="none" saName="A">
+			<track assigned="yes" id="3s1" imported="yes" name="Hilltop Spur" reader="A" saName="A" />
+		</location>
+		<location assigned="no" id="4" imported="yes" name="J &amp; A Petrolium" reader="none" saName="A">
+			<track assigned="no" id="4s1" imported="yes" name="Reverse Spur" reader="none" saName="A" />
+		</location>
+		<location assigned="no" id="5" imported="yes" name="S &amp; J Union Station" reader="none" saName="A">
+			<track assigned="no" id="5s1" imported="yes" name="Station Siding" reader="none" saName="A" />
+		</location>
+		<location assigned="no" id="6" imported="yes" name="Short Box" reader="A" saName="A">
+			<track assigned="no" id="6s1" imported="yes" name="Short box" reader="none" saName="A" />
+		</location>
+		<location assigned="no" id="7" imported="yes" name="Long Box" reader="A" saName="A">
+			<track assigned="no" id="7s1" imported="yes" name="Long Box 1" reader="none" saName="A" />
+			<track assigned="no" id="7s2" imported="yes" name="Long Box 2" reader="none" saName="A" />
+			<track assigned="no" id="7s3" imported="yes" name="Long Box 3" reader="none" saName="A" />
+			<track assigned="no" id="7s4" imported="yes" name="Long Box 4" reader="none" saName="A" />
+			<track assigned="yes" id="7s5" imported="yes" name="Long Box 5" reader="B" saName="A" />
+		</location>
+	</locations>
+	<readers>
+		<reader address="A" imported="no" installed="yes" name="Stand Alone 1" />
+		<reader address="B" imported="no" installed="yes" name="Stand Alone 2" />
+		<reader address="C" imported="no" installed="yes" name="Stand Alone 3" />
+		<reader address="D" imported="no" installed="yes" name="Stand Alone 4" />
+		<reader address="E" imported="no" installed="yes" name="Stand Alone 5" />
+		<reader address="F" imported="no" installed="no" name="F" />
+		<reader address="G" imported="no" installed="no" name="G" />
+		<reader address="H" imported="no" installed="no" name="H" />
+		<reader address="I" imported="no" installed="no" name="I" />
+		<reader address="J" imported="no" installed="no" name="J" />
+		<reader address="K" imported="no" installed="no" name="K" />
+		<reader address="L" imported="no" installed="no" name="L" />
+		<reader address="M" imported="no" installed="no" name="M" />
+		<reader address="N" imported="no" installed="no" name="N" />
+		<reader address="O" imported="no" installed="no" name="O" />
+		<reader address="P" imported="no" installed="no" name="P" />
+		<reader address="Q" imported="no" installed="no" name="Q" />
+		<reader address="R" imported="no" installed="no" name="R" />
+		<reader address="S" imported="no" installed="no" name="S" />
+		<reader address="T" imported="no" installed="no" name="T" />
+		<reader address="U" imported="no" installed="no" name="U" />
+		<reader address="V" imported="no" installed="no" name="V" />
+		<reader address="W" imported="no" installed="no" name="W" />
+		<reader address="X" imported="no" installed="no" name="X" />
+		<reader address="Y" imported="no" installed="no" name="Y" />
+	</readers>
+</jmri-import>
